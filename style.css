@@ -1,7 +1,43 @@
-.about {font-family: absolutamente rou st; color: aquamarine; display: inline-block;
-    width: 100px; padding-top: 5px; padding-bottom: 5px; padding-left: 5px;padding-right: 5px; border: 5px solid aquamarine; text-align: center; float: left; margin: 40px 90px 40px;}
-.contact {font-family: absolutamente rou st; color: aquamarine; display: inline-block;
-    width: 100px; padding-top: 5px;padding-bottom: 5px;padding-left: 5px;padding-right: 5px; border: 5px solid aquamarine;text-align: center; float: right;margin: 40px 90px 10px 90px}
-.intro {margin: 30px 30px 30px; padding-top: 40px; padding-bottom: 40px; padding-left: 15%; padding-right: 15%;}
-.intro {font-family: absolutamente rou st; font-size: 150%; color: aquamarine; border: 5px solid aquamarine}
+.about {font-family: absolutamente rou st; color: #bbffff; display: inline-block;
+    width: 100px; padding-top: 5px; padding-bottom: 5px; padding-left: 5px;padding-right: 5px; border: 5px solid #bbffff; border-radius: 5px 5px 5px 5px / 5px 5px; text-align: center; float: left; margin: 40px 90px 40px;}
+.contact {font-family: absolutamente rou st; color: #bbffff; display: inline-block;
+    width: 100px; padding-top: 5px;padding-bottom: 5px;padding-left: 5px;padding-right: 5px; border: 5px solid #bbffff; border-radius: 5px 5px 5px 5px / 5px 5px; text-align: center; float: right; margin: 40px 90px 40px}
+.intro {margin: 0px 30px 30px 30px; padding-top: 40px; padding-bottom: 40px; padding-left: 15%; padding-right: 15%;}
+.intro {font-family: absolutamente rou st; font-size: 150%; color: #bbffff;}
 .intro {text-align: center;}
+.toe {text-align: center; font-family: absolutamente rou st; color: #bbffff;}
+.mission{font-family: absolutamente rou st; color: #bbffff; border: 5px solid #bbffff; border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px; text-align: center;margin: 40px 40px 40px 40px;padding: 20px 20px 20px 20px}
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 130%;
+}
+.box{
+    height: 130%;
+    width: 100%;
+}
+.gradDynamic{
+    position: relative;
+}
+.gradDynamic:after, .gradDynamic:before{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content:"";
+    z-index: -1;
+}
+.gradDynamic:after{
+    background: radial-gradient(circle,#aaddff,transparent);
+    background-size: 400%;
+    animation: colorspin 60s linear infinite;
+}
+.gradDynamic:before{background-color: #aaddff}
+
+@keyframes colorspin{
+    25%{background-position: 0 100%}
+    50%{background-position: 100% 100%}
+    75%{background-position: 100% 0}
+    100%{filter:hue-rotate(360deg)}
+}
