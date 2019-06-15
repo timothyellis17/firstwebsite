@@ -1,17 +1,23 @@
+.intro {margin: 0px 30px 30px 30px; padding-top: 40px; padding-bottom: 40px; padding-left: 15%; padding-right: 15%;}
+.intro {font-family: absolutamente rou st; font-size: 150%; color: #ffffff;}
+.intro {text-align: center}
 .about {font-family: absolutamente rou st; color: #ffffff; display: inline-block;
     width: 100px; padding-top: 5px; padding-bottom: 5px; padding-left: 5px;padding-right: 5px; border: 5px solid #ffffff; border-radius: 5px 5px 5px 5px / 5px 5px; text-align: center; float: left; margin: 0px 90px 40px;}
 .contact {font-family: absolutamente rou st; color: #ffffff; display: inline-block;
     width: 100px; padding-top: 5px;padding-bottom: 5px;padding-left: 5px;padding-right: 5px; border: 5px solid #ffffff; border-radius: 5px 5px 5px 5px / 5px 5px; text-align: center; float: right; margin: 0px 90px 40px}
-.intro {margin: 0px 30px 30px 30px; padding-top: 40px; padding-bottom: 40px; padding-left: 15%; padding-right: 15%;}
-.intro {font-family: absolutamente rou st; font-size: 150%; color: #ffffff;}
-.intro {text-align: center;}
 .toe {text-align: center; font-family: absolutamente rou st; color: #ffffff;}
 .mission{font-family: absolutamente rou st; color: #ffffff; border: 5px solid #ffffff; border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px; text-align: center;margin: 0px 220px 0px 220px;padding: 20px 20px 20px 20px}
-.logo{margin: 80px;}
+.logo{align-content: center; margin: 80px;}
+.frame {text-align: center}
+.space {width: auto;
+    height: auto;
+    background-image: url(StellarSpace.jpg);
+background-position: 0px 0px;
+background-repeat: repeat-x;
+
+animation: space 30s linear infinite}
 #wrapper {
     margin-left:auto;
     margin-right:auto;
     width:1000px;
 }
-.frame {text-align: center}
-.space {background-image: url(StellarSpace.jpg)}
