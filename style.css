@@ -9,13 +9,17 @@
 .mission{font-family: absolutamente rou st; color: #ffffff; border: 5px solid #ffffff; border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px; text-align: center;margin: 0px 220px 0px 220px;padding: 20px 20px 20px 20px}
 .logo{align-content: center; margin: 80px;}
 .frame {text-align: center}
-.space {width: auto;
-    height: auto;
+@keyframes space {
+    0% {background-position: 3% 0%}
+}
+.space {
+    background-size: 2880px 1800px;
     background-image: url(StellarSpace.jpg);
-background-position: 0px 0px;
-background-repeat: repeat-x;
-
-animation: space 30s linear infinite}
+    background-repeat: repeat-x;
+    animation: space 6s linear infinite;
+    animation-direction: alternate;
+    animation-duration: 6s;
+}
 #wrapper {
     margin-left:auto;
     margin-right:auto;
